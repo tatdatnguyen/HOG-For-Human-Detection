@@ -22,8 +22,8 @@ neg_im_path = 'C:/Users/user/OneDrive/Desktop/HOG/img/0'
 # Load the positive features
 for filename in glob.glob(os.path.join(pos_im_path,"*.png")):
     img = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)
-    img = cv2.resize(img,(128,256))
-    hog = Hog_descriptor(img, cell_size=16, bin_size=16)
+    img = cv2.resize(img,(64,128))
+    hog = Hog_descriptor(img, cell_size=16, bin_size=9)
     vector, image = hog.extract()
     X.append(vector)
     Y.append(1)
@@ -31,8 +31,8 @@ for filename in glob.glob(os.path.join(pos_im_path,"*.png")):
 # Load the negative features
 for filename in glob.glob(os.path.join(neg_im_path,"*.png")):
     img = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)
-    img = cv2.resize(img,(128,256))
-    hog = Hog_descriptor(img, cell_size=16, bin_size=16)
+    img = cv2.resize(img,(64,128))
+    hog = Hog_descriptor(img, cell_size=16, bin_size=9)
     vector, image = hog.extract()
     X.append(vector)
     Y.append(0)
