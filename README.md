@@ -7,7 +7,8 @@
 3. Gradient direction.
 4. Histogram for a given cell.
 
-## Requirements: Python >= 3.7
+## Requirements:
+Python >= 3.7
 
 ## We applied HOG method in 2 tasks which are:
 1. Human Detection (HOG features extraction combined with linear SVM model)
