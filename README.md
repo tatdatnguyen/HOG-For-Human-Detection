@@ -1,4 +1,4 @@
-# HOG-method-build-from-scratch
+# HOG method build from scratch
 
 
 HOG is an image feature descripts to describe the image based on the gradients directions and magnitudes. At the current time, this project supports calculating the following:
