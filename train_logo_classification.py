@@ -36,7 +36,7 @@ def _preprocessing(fileType):
         if cnts:
             c = max(cnts, key=cv2.contourArea)
 
-            # Trích xuất logo của xe và resize lại kích thước ảnh logo về 200x200
+            # Trích xuất logo của xe và resize lại kích thước ảnh logo về 64x128
             (x, y, w, h) = cv2.boundingRect(c)
             logo = gray[y:y + h, x:x + w]
             logo = cv2.resize(logo, (64, 128))
