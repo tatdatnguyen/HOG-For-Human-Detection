@@ -15,8 +15,8 @@ Python >= 3.7
 2. Car Logo Classification (HOG features extraction combined with KNN model)
 
 ## The results are quite positive: 
-1. accuracy 0.7-0.75 for the human detection task (small amount of data)
-2. accuracy 0.8-0.9 for the car logo classification task
+1. Accuracy 0.7-0.75 for the human detection task (small amount of data)
+2. Accuracy 0.8-0.9 for the car logo classification task
 
 ## About the modules
 
