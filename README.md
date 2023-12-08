@@ -11,7 +11,7 @@ HOG is an image feature descripts to describe the image based on the gradients d
 ## Requirements
 Python >= 3.7
 
-## We applied HOG method in 2 tasks which are
+## We applied HOG method in 2 tasks
 1. Human Detection (HOG features extraction combined with linear SVM model)
 2. Car Logo Classification (HOG features extraction combined with KNN model)
 
