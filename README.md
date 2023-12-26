@@ -11,7 +11,7 @@ HOG is an image feature descripts to describe the image based on the gradients d
 ## Requirements
 Python >= 3.7
 
-## Usage
+## How to run
 ```bash
 #run the human detection
 python svm-train.py.py
