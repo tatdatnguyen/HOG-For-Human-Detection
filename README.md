@@ -11,6 +11,16 @@ HOG is an image feature descripts to describe the image based on the gradients d
 ## Requirements
 Python >= 3.7
 
+## Installation
+```bash
+# clone project
+git clone https://github.com/tatdatnguyen/HOG-For-Human-Detection.git
+
+# create conda environment
+conda create -n myenv python=3.7
+conda activate myenv
+pip install -r requirement.txt
+```
 ## How to run
 ```bash
 #run the human detection
@@ -21,8 +31,11 @@ python svm-train.py.py
 #run the car logo classification
 python train_logo_classification.py
 ```
+ 
  ```bash
-#open notebook to run the emotion recognition task
+#run the emotion recognition task
+python src/train.py
+python src/predict.py
 ```
 
 ## Goals
