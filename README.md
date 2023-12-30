@@ -13,6 +13,7 @@ HOG is an image feature descripts to describe the image based on the gradients d
 ```bash
 # clone project
 git clone https://github.com/tatdatnguyen/HOG-For-Human-Detection.git
+cd HOG-For-Human-Detection
 
 # create conda environment
 conda create -n myenv python=3.7
