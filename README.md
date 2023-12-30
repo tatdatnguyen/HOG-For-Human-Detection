@@ -8,8 +8,6 @@ HOG is an image feature descripts to describe the image based on the gradients d
 3. Gradient direction.
 4. Histogram for a given cell.
 
-## Requirements
-Python >= 3.7
 
 ## Installation
 ```bash
